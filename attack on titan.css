@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header h1 {
+    color: rgb(241, 172, 82);
+}
+
+header p {
+    color: #ffffff;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.article {
+    color: #ffffff;
+    padding:2;
+}
+
+.article a {
+    text-decoration: none;
+    color: rgb(241, 172, 82);
+}
+
+.box {
+    border: 1px solid #1f1f1f;
+    border-radius: 8px;
+    border-bottom: #121212 5px solid;
+}
+
+.content-info {
+    display: grid;
+    color: #ffffff;
+    grid-template-columns: 1fr 1fr;
+}
+
+.description {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.synopsis {
+    color: #ffffff;
+}
+
+.characters {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+footer a {
+    color: #888888;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.anime-catalogue {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.anime-catalogue a {
+    margin: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.more-anime h3 {
+    color: rgb(241, 172, 82);
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.more-anime p {
+    color: #fff;
+    text-align: center;
+}
+
+.more-anime {
+    margin-top: 50px;
+
+}
